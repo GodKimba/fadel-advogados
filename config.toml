@@ -1,5 +1,5 @@
 baseURL = "https://example.com"
-title = "Tella"
+title = "Fadel-Advogados"
 author = "rafaelfadel"
 languageCode = "en"
 DefaultContentLanguage = "en"
@@ -31,7 +31,7 @@ enableRobotsTXT = true
     size = "h-14"
 
   [params.site]
-    name = "Tella"
+    name = "Fadel-Advogados"
 
   [params.icon]
     #If you want to use FontAwesome, set this parameter to true.
@@ -52,36 +52,36 @@ enableRobotsTXT = true
 
   [[menu.main]]
     identifier = "products"
-    name = "Products"
+    name = "Serviços"
     url = "/products/"
     weight = 1
 
   [[menu.main]]
     identifier = "blog"
-    name = "Blog"
+    name = "Notícias"
     url = "/blog/"
-    weight = 2
 
+    weight = 2
   [[menu.main]]
     identifier = "about"
-    name = "About"
+    name = "Sobre nós"
     url = "/about/"
     weight = 3
 
   [[menu.main]]
     identifier = "contact"
-    name = "Contact"
+    name = "Entre em Contato"
     url = "/contact/"
     weight = 4
 
   # Footer Menu
   [[menu.footer]]
-    name = "Home"
+    name = "Início"
     url = "/"
       weight = 1
 
-  [[menu.footer]]
-    name = "Github"
-    url = "https://github.com/opera7133/tella"
-    pre = "<i class='icon-github text-2xl'></i>"
-      weight = 2
+  # [[menu.footer]]
+  #   name = "Github"
+  #   url = "https://github.com/opera7133/tella"
+  #   pre = "<i class='icon-github text-2xl'></i>"
+  #     weight = 2
